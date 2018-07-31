@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(60,160,255);
+}
+h1{
+    color: white;
+    font-weight: 800;
+    font-family: quicksand;
+}
+#today{
+    font-size: 25px;
+}
+.s{
+    background-color: green;
+    color: white;
+}
+.d{
+    background-color: red;
+    color: white;
+}
+
+hr{
+    outline: none;
+    clear: both;
+    height: 2px;
+    width: 100%;
+    background-color: blue;
+}
+.dark{
+    color: white;
+    background-color: black;
+}
+
+.dark h2{
+    text-align: center;
+}
