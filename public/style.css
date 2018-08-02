@@ -1,5 +1,6 @@
 body{
     background-color: rgb(60,160,255);
+    /*background-color: black;*/
 }
 h1{
     color: white;
@@ -25,11 +26,59 @@ hr{
     width: 100%;
     background-color: blue;
 }
-.dark{
-    color: white;
-    background-color: black;
+
+/* rules */
+
+
+#rules{
+    height: 330px;
+    background-color: rgb(220, 220, 220);
 }
 
-.dark h2{
-    text-align: center;
+#rules h3{
+   
+}
+
+#ruleCover{
+    padding-left: 20px;
+}
+
+
+/*dictionary*/
+#dicCover{
+   height: 400px;
+   background-color: rgb(220, 220, 220);
+}
+/*footer*/
+footer {
+    position: static;
+    bottom: 0;
+    height: 130px;
+    background-color: White;
+}
+
+footer p {
+    font-size: 18px;
+}
+footer p {
+    margin-top: 10px;
+}
+footer p a{
+    display: inline-block;
+    margin-top: 10px;
+    width: 70px;
+    cursor: pointer;
+}
+
+footer p a img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    
+}
+
+footer p a img:hover{
+    border-radius: 0;
+    height: 35px;
+    width: 35px;
 }

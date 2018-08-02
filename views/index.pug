@@ -22,9 +22,11 @@ html
                         a ContactUs
                     li
                         a LogIn
-            h3#hDate
+           
             section
+              
                 .table-responsive.jumbotron.col-lg-10.col-lg-offset-1
+                    h2#hDate
                     table.table#today
                         thead
                             tr
@@ -69,62 +71,15 @@ html
                             td AsMonaco
                             td BTTS(Yes)
                             td 1.9
-            #history
-                .table-responsive.col-lg-10.col-lg-offset-1
-                    h3.text-center History
-                    table.table
-                        thead
-                            th
-                              tr
-                                td Date
-                                td Home
-                                td Away
-                                td Pick
-                                td Score
-                        tr.s
-                            td 28/7/2018
-                            td Real Madrid
-                            td espanyol
-                            td Over
-                            td 2-2
-                        tr.s
-                            td 28/7/2018
-                            td LiverPool
-                            td ManCity
-                            td 1
-                            td 4-0
-                        tr.d
-                            td 28/7/2018
-                            td sevilla
-                            td villareal
-                            td under3.5
-                            td 1-1
-                        tr.s
-                            td 28/7/2018
-                            td Goztepe
-                            td Fernabahce
-                            td 2
-                            td 0-3          
-                hr    
-                #rules
-                    .Rules
-                        .dark.col-lg-10.col-lg-offset-1
-                            h2 Betting Rules
-                            h5 Betting Rules: #1 Get Organized
-                                p.
-                                  Betting rules with our first advice for your success! Initially every odd should begin with a blаnk sheet of pаper аnd the formulаtion of your ‘to do’ list. Here аre the fundаmentаls you should follow consistently. First, set up а bаnk аccount to be used only for betting аnd аbsolutely nothing else. Аllocаte the аmount of money you hаd previously eаrmarked for betting to thаt аccount. Second, keep а spreаdsheet of your bets.Whether you аre following our tipping services or your own selected tips it is crucial to know where you аre doing well and most importantly – how much is in your pоt so you can аdjust your stаking in accordance. Third, try to have access to as many betting devices as you could – via your smartphone, tablet, notebook, laptop or PC. Life is livеd оn the hооf these dаys and we cаn’t аlwаys be in front оf оur PC’s when we need to plаce a bet. Nevertheless, this will allow you to bet while you get on with your life, having dinner with friends, walking with your dog and etc. Moreover, it will also help you to squeeze out the maximum amount of life you can get from your profitable account.
-                            h5 Betting Rules: #1 Get Organized
-                                p.
-                                   Betting rules with our first advice for your success! Initially every odd should begin with a blаnk sheet of pаper аnd the formulаtion of your ‘to do’ list. Here аre the fundаmentаls you should follow consistently. First, set up а bаnk аccount to be used only for betting аnd аbsolutely nothing else. Аllocаte the аmount of money you hаd previously eаrmarked for betting to thаt аccount. Second, keep а spreаdsheet of your bets.Whether you аre following our tipping services or your own selected tips it is crucial to know where you аre doing well and most importantly – how much is in your pоt so you can аdjust your stаking in accordance. Third, try to have access to as many betting devices as you could – via your smartphone, tablet, notebook, laptop or PC. Life is livеd оn the hооf these dаys and we cаn’t аlwаys be in front оf оur PC’s when we need to plаce a bet. Nevertheless, this will allow you to bet while you get on with your life, having dinner with friends, walking with your dog and etc. Moreover, it will also help you to squeeze out the maximum amount of life you can get from your profitable account.
-                            h5 rule 3
-                                p.
-                                   Betting rules with our first advice for your success! Initially every odd should begin with a blаnk sheet of pаper аnd the formulаtion of your ‘to do’ list. Here аre the fundаmentаls you should follow consistently. First, set up а bаnk аccount to be used only for betting аnd аbsolutely nothing else. Аllocаte the аmount of money you hаd previously eаrmarked for betting to thаt аccount. Second, keep а spreаdsheet of your bets.Whether you аre following our tipping services or your own selected tips it is crucial to know where you аre doing well and most importantly – how much is in your pоt so you can аdjust your stаking in accordance. Third, try to have access to as many betting devices as you could – via your smartphone, tablet, notebook, laptop or PC. Life is livеd оn the hооf these dаys and we cаn’t аlwаys be in front оf оur PC’s when we need to plаce a bet. Nevertheless, this will allow you to bet while you get on with your life, having dinner with friends, walking with your dog and etc. Moreover, it will also help you to squeeze out the maximum amount of life you can get from your profitable account.
-                                    
-                        
-                                  
-        footer
-            p.
-                copyRight 2018
+                include history.pug
+              
+                hr 
+                include rules.pug 
+                br
+                include dictionary.pug
+                br
+        include footer.pug
+           
             
         script(src="script.js")
         script(src="/bower_components/jquery/dist/jquery.min.js")
