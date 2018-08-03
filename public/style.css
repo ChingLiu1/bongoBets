@@ -1,12 +1,54 @@
 body{
-    background-color: rgb(60,160,255);
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /*background-color: rgb(60,160,255);*/
     /*background-color: black;*/
 }
+
 h1{
     color: white;
-    font-weight: 800;
-    font-family: quicksand;
+    font-size: 50px;
+    font-weight: 900;
 }
+
+/* navigation menu */
+nav{
+    border-top: 1px solid white;
+    background-color: black;
+}
+nav ul{
+    list-style: none;
+    width:500px;
+    margin: 0px auto;
+}
+
+nav ul li{
+     display: inline-block;
+    text-decoration: none;
+}
+
+nav ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    color: white; 
+    text-align: center;
+    margin: 7px;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+  
+}
+
+
 #today{
     font-size: 25px;
 }
@@ -24,7 +66,7 @@ hr{
     clear: both;
     height: 2px;
     width: 100%;
-    background-color: blue;
+    background-color: ;
 }
 
 /* rules */

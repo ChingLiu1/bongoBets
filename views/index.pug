@@ -8,23 +8,9 @@ html
         h1.text-center bongoBets
            
         .container
-            nav.navbar.navbar-inverse
-                ul.nav.navbar-nav
-                    li
-                        a Home
-                    li
-                        a History
-                    li
-                        a Rules
-                    li
-                        a Dictionary
-                    li  
-                        a ContactUs
-                    li
-                        a LogIn
-           
+            include nav.pug
+            br
             section
-              
                 .table-responsive.jumbotron.col-lg-10.col-lg-offset-1
                     h2#hDate
                     table.table#today
