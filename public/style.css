@@ -48,9 +48,30 @@ nav ul li a:hover{
   
 }
 
+.hoverLink{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+}
+
+.stickyNav{
+    position: fixed;
+    top: 0;
+    left: 8%;
+    width: 84%;
+    z-index: 1;
+}
+
+.linkOn{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+}
+
+
 
 #today{
-    font-size: 25px;
+    font-size: 20px;
 }
 .s{
     background-color: green;
