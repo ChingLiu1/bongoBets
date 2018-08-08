@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-
+const port = process.env.PORT || 3000;
 var app = express();
 
 //view engine
@@ -14,6 +14,6 @@ app.get('/',(req, res) => {
     res.render('index');
 });
 
-app.listen(3000, (req, res) => {
+app.listen(port, (req, res) => {
     console.log('listening locally');
 });
