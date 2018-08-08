@@ -31,51 +31,10 @@ window.addEventListener('scroll', () => {
        }
 });
 
-window.addEventListener('scroll', () => {
-    
-    if ((window.pageYOffset > 110) && (window.pageYOffset < 530)){
-        hl.classList.add('linkOn');
-    }
-    else{
-        hl.classList.remove('linkOn')
-    }
-});
 
 
-window.addEventListener('scroll', () => {
-    
-    if ((window.pageYOffset > 530) && (window.pageYOffset < 1020)){
-        histL.classList.add('linkOn');
-    }
-    else{
-        histL.classList.remove('linkOn')
-    }
-});
 
-window.addEventListener('scroll', () => {
-    
-    if ((window.pageYOffset > 1020) && (window.pageYOffset < 1250)){
-        tip.classList.add('linkOn');
-    }
-    else{
-        tip.classList.remove('linkOn');
-    }
-});
 
-window.addEventListener('scroll', () => {
-    
-    if ((window.pageYOffset > 1250) && (window.pageYOffset < 1500)){
-        dicLink.classList.add('linkOn');
-    }
-    else{
-        dicLink.classList.remove('linkOn');
-    }
-});
-
-window.addEventListener('scroll', () => {
-    
-    console.log(window.pageYOffset);
-});
 
 
  

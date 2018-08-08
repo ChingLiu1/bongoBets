@@ -1,0 +1,47 @@
+
+/* background media */
+@media screen and (max-width: 600px){
+    body{
+        background: none;
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 601px){
+    body{
+        background-position:50% 60%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .hide-mob{
+        display: none;
+    }
+    /* rules height increase*/
+    #rules{
+        height: 380px;
+        font-size: 2px;
+    }
+}
+
+/* navigation media */
+
+@media screen and (max-width: 530px){
+    nav ul {
+       max-width: 530px;
+    }
+    
+    nav ul li a{
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: white; 
+    text-align: center;
+    margin: 7px;
+}
+    .stickyNav{
+    position: static;
+    }
+}
+
