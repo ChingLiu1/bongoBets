@@ -27,21 +27,14 @@
 /* navigation media */
 
 @media screen and (max-width: 530px){
-    nav ul {
-       max-width: 530px;
+    nav {
+        display: none;
     }
-    
-    nav ul li a{
-    display: block;
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    color: white; 
-    text-align: center;
-    margin: 7px;
-}
-    .stickyNav{
-    position: static;
+    #rules{
+        display: none;
+    }
+    #dicCover{
+        display: none;
     }
 }
 
