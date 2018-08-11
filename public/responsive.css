@@ -1,6 +1,6 @@
 
 /* background media */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     body{
         background: none;
         background-color: black;
@@ -17,16 +17,20 @@
     .hide-mob{
         display: none;
     }
-    /* rules height increase*/
-    #rules{
-        height: 380px;
-        font-size: 2px;
-    }
+   
 }
+
+@media screen and (max-width: 480px){
+    .hide-mob-xs{
+        display: none;
+    }
+   
+}
+
 
 /* navigation media */
 
-@media screen and (max-width: 530px){
+@media screen and (max-width: 768px){
     nav {
         display: none;
     }
