@@ -14,63 +14,44 @@ h1{
 }
 
 /* navigation menu */
-nav{
-    border-top: 1px solid white;
-    background-color: black;
-}
-nav ul{
-    list-style: none;
-    width:500px;
-    margin: 0px auto;
-}
 
-nav ul li{
-     display: inline-block;
-    text-decoration: none;
-}
-
-nav ul li a{
-    cursor: pointer;
-    text-decoration: none;
-    display: block;
-    width: 70px;
-    height: 50px;
-    line-height: 50px;
-    color: white; 
-    text-align: center;
-    margin: 7px;
-}
-
-nav ul li a:hover{
-    text-decoration: none;
-    color: white;
-    background-color: green;
-  
-}
-
-.hoverLink{
-    text-decoration: none;
-    color: white;
-    background-color: green;
-}
 
 .stickyNav{
     position: fixed;
     top: 0;
-    left: 8%;
-    width: 84%;
+    left: 15%;
+    width: 70%;
     z-index: 1;
 }
 
+nav{
+    background-color: black;
+}
+
+.navLeft li a{
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+    width: 120px;
+    text-align: center;
+    background-color: black;
+}
+.navLeft li a:hover{
+    background-color: green;
+    color: white;
+}
+/*history*/
 .linkOn{
     text-decoration: none;
     color: white;
     background-color: green;
+
 }
 
 
 
-
+/*history*/
 .s{
     background-color: green;
     color: white;

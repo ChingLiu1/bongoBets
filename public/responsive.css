@@ -28,12 +28,19 @@
 }
 
 
+
 /* navigation media */
 
 @media screen and (max-width: 768px){
-    nav {
+    .navLeft{
         display: none;
     }
+    
+    .stickyNav{
+    position: static;
+
+    }
+    
     #rules{
         display: none;
     }
@@ -41,4 +48,23 @@
         display: none;
     }
 }
+/* when the device is below 1200px remove header*/
+@media screen and (max-width: 1200px){
+    .navLeft li a{
+       margin-left: 5px; 
+    }
+    .navbar-header{
+        display: none;
+    }
+}
+
+/* when the device is below 950 the stickyNav should 
+widenUp */
+@media screen and (max-width: 950px){
+    .stickyNav{
+        left: 5%;
+        width: 90%;
+    }
+}
+
 
