@@ -51,7 +51,8 @@
 /* when the device is below 1200px remove header*/
 @media screen and (max-width: 1200px){
     .navLeft li a{
-       margin-left: 5px; 
+       margin-left: 5px;
+       width: 102px;
     }
     .navbar-header{
         display: none;
@@ -64,6 +65,15 @@ widenUp */
     .stickyNav{
         left: 5%;
         width: 90%;
+    }
+}
+
+
+/* for kindle fire and ipad above height 1000*/
+
+@media screen and(min-height: 1000px){
+    body{
+        background-image: none;
     }
 }
 

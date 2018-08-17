@@ -41,6 +41,33 @@ nav{
     background-color: green;
     color: white;
 }
+
+
+.navbar-right li a{
+    color: white;
+}
+
+.navbar-right li #login:hover{
+    background-color: green;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar-right li #signup:hover{
+    background-color: red;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.navbar-right li:nth-child(1){
+    background-color: green;
+}
+
+.navbar-right li:nth-child(2){
+    background-color: red;
+}
+
 /*history*/
 .linkOn{
     text-decoration: none;
@@ -100,7 +127,7 @@ footer {
 }
 
 footer p {
-    font-size: 18px;
+    font-size: 16px;
 }
 footer p {
     margin-top: 10px;
